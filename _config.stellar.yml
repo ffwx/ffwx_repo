@@ -1,12 +1,3 @@
-######## Stellar info ########
-stellar:
-  version: '1.22.1'
-  homepage: 'https://xaoxuu.com/wiki/stellar/'
-  repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
-  cdn_css: # Use cdn links instead of /css/main.css
-  cdn_js: # Use cdn links instead of /js/main.js
-
-
 ######## head tags ########
 open_graph:
   enable: true
@@ -19,10 +10,11 @@ sidebar:
     avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-    # post: '[btn.blog](/)'
-    # wiki: '[btn.wiki](/wiki/)'
-    # friends: '[友链](/friends/)'
-    # about: '[关于](/about/)'
+    post: '[btn.blog](/)'
+    wiki: '[btn.wiki](/wiki/)'
+    friends: '[友链](/friends/)'
+    about: '[关于](/about/)'
+  #  more: '[更多](/more/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
@@ -258,7 +250,7 @@ tag_plugins:
       in_track:
         color: blue # red, orange, yellow, green, cyan, blue, purple
         label: 正常
-      at_risk: 
+      at_risk:
         color: yellow
         label: 风险
       off_track:
@@ -277,7 +269,7 @@ tag_plugins:
     size: mix # s / m / l / xl / mix
     ratio: square # origin / square
 
-      
+
 
 
 ######## JS Plugins ########
@@ -387,26 +379,36 @@ plugins:
     js: /js/plugins/copycode.js
     default_text: 'Copy'
     success_text: 'Copied'
-  
+
   # AI 摘要
   # https://github.com/zhheo/Post-Abstract-AI
   tianli_gpt:
     enable: false
     field: post # all, post, wiki
     api: 5Q5mpqRK5DkwT1X9Gi5e # tianli_gpt key
-    typingAnimate: true # 打字机动画 
+    typingAnimate: true # 打字机动画
 
 style:
   darkmode: auto # auto / always / false
   smooth_scroll: false # true / false 开启时如果目录过长可能无法准确定位
+# font-size:
+#   root: 16px
+#   body: .9375rem # 15px
+#   code: 85% # 14px
+#   codeblock: 0.8125rem # 13px
+# font-family:
+#   logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+#   body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+#   code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+#   codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   font-size:
-    root: 16px
-    body: .9375rem # 15px
+    root: 19.3px
+    body: .9999rem # 15px
     code: 85% # 14px
     codeblock: 0.8125rem # 13px
   font-family:
-    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-    body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    logo: 'ZFonts, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    body: 'ZFonts, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
     codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   text-align: left

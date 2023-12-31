@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: knowledge management
+title: 日常记录
 subtitle: ''
 description: ''
 keywords:
@@ -105,5 +105,5 @@ theme: stellar
 deploy:
   type: git                        # type为git
   #repo: git@gitee.com:w512/w512.git  # 仓库的 URL
-  repo: git@github.com:ffwx/ffwx.github.io.git  # 仓库的 URL
+  repo: git@github.com:ffwx/ffwx.github.io.git # 仓库的 URL
   branch: main
