@@ -13,8 +13,8 @@ sidebar:
     post: '[btn.blog](/)'
     wiki: '[btn.wiki](/wiki/)'
     friends: '[友链](/friends/)'
-    about: '[关于](/about/)'
-  #  more: '[更多](/more/)'
+  #  about: '[关于](/about/)'
+    more: '[更多](/more/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
@@ -371,7 +371,7 @@ plugins:
     # js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
     js: https://cdn.jsdelivr.net/npm/mermaid@v9/dist/mermaid.min.js
     # Available themes: default | dark | forest | neutral
-    theme: neutral
+    theme: forest
 
   # 代码块复制按钮
   copycode:
